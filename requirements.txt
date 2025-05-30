@@ -1,12 +1,18 @@
-streamlit==1.22.0
-ultralytics==8.0.20
-torch==2.0.1
-torchvision==0.15.2
-opencv-python==4.7.0.72
+# YOLO ve ML kütüphaneleri
+ultralytics>=8.0.0
+torch>=1.9.0
+torchvision
+opencv-python
 numpy
 Pillow
 matplotlib
 PyYAML
 tqdm
-seaborn
 scipy
+seaborn
+
+# Streamlit için
+streamlit
+
+# (Varsa .env dosyası için)
+python-dotenv
