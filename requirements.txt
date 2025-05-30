@@ -1,16 +1,19 @@
-# Ultralytics YOLO paketi (YOLOv8 tabanlıdır)
+# YOLO için temel kütüphaneler
 ultralytics>=8.0.0
-
-# PyTorch ve görüntü işleme
 torch>=1.9.0
-torchvision>=0.10.0
-opencv-python
-numpy
+torchvision
+opencv-python   
+
+# Görüntü işleme
 Pillow
+numpy
 matplotlib
 PyYAML
 
-# Eğitim süreci için yardımcı kütüphaneler
+# Model eğitimi & grafikler
 tqdm
 scipy
 seaborn
+
+# Streamlit için
+streamlit
