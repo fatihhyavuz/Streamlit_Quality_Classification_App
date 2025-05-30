@@ -1,19 +1,19 @@
-# YOLO için temel kütüphaneler
+# YOLO ve ML kütüphaneleri
+python-3.10
 ultralytics>=8.0.0
 torch>=1.9.0
 torchvision
-opencv-python   
-
-# Görüntü işleme
-Pillow
+opencv-python
 numpy
+Pillow
 matplotlib
 PyYAML
-
-# Model eğitimi & grafikler
 tqdm
 scipy
 seaborn
 
 # Streamlit için
 streamlit
+
+# (Varsa .env dosyası için)
+python-dotenv
